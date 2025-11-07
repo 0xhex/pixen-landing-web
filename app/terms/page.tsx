@@ -262,7 +262,8 @@ export default function TermsOfUse() {
             </p>
             <div className="bg-gray-50 p-4 rounded-lg">
               <p className="text-gray-700">
-                <strong>Email:</strong> support@pixen.ai<br />
+                <strong>Email:</strong> help@pixen-ai.com<br />
+                <strong>WhatsApp:</strong> +40 762 953437<br />
                 <strong>App:</strong> Pixen AI<br />
                 <strong>Support:</strong> Available through the App settings
               </p>
