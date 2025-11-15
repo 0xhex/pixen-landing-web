@@ -156,9 +156,7 @@ export default function PrivacyPolicy() {
 
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Data Retention</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              We retain your personal information for as long as necessary to provide our services, comply with legal obligations, resolve disputes, and enforce our agreements. When you delete your account, we will delete or anonymize your personal information, except where we are required to retain it for legal purposes.
-            </p>
+           
             <p className="text-gray-700 leading-relaxed mb-4">
               <strong>Face Data Retention:</strong> As stated in Section 2.2, face data and photos containing facial features are NOT stored on our servers. They are processed temporarily in memory only during the active AI generation process and are immediately and permanently deleted upon completion. There is zero retention period for facial biometric data.
             </p>
