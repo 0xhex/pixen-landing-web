@@ -43,7 +43,20 @@ export default function PrivacyPolicy() {
               <li><strong>Payment Information:</strong> If you purchase credits or subscriptions, payment information is processed through secure third-party payment processors. We do not store your full payment card details.</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">2.2 Automatically Collected Information</h3>
+            <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">2.2 Face Data Collection and Processing</h3>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              <strong>Important Information About Face Data:</strong>
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-4">
+              <li><strong>What Face Data We Collect:</strong> When you upload photos containing facial features, our App processes facial data to generate AI-powered images and videos using our templates.</li>
+              <li><strong>How Face Data Is Used:</strong> Face data is used exclusively for the purpose of generating personalized AI images and videos. The processing occurs temporarily in memory during the generation process.</li>
+              <li><strong>We Do NOT Store Face Data:</strong> Your photos containing face data are processed for AI image generation only and are NOT stored on our servers. Once the AI generation is complete, the facial data is immediately discarded from our systems.</li>
+              <li><strong>No Third-Party Sharing:</strong> We do not share, sell, or transfer your face data to any third-party services. All facial processing occurs within our secure, isolated processing environment.</li>
+              <li><strong>Data Retention:</strong> Face data is retained only for the duration of the active generation process (typically seconds to minutes) and is automatically deleted immediately after generation completion. We maintain zero permanent storage of facial biometric data.</li>
+              <li><strong>User Control:</strong> You have complete control over what photos you upload. You can delete your generated images at any time through the App, and your original photos are never stored on our servers.</li>
+            </ul>
+
+            <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">2.3 Automatically Collected Information</h3>
             <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-4">
               <li><strong>Device Information:</strong> Device type, operating system, unique device identifiers, and mobile network information.</li>
               <li><strong>Usage Data:</strong> Information about how you interact with the App, including features used, templates selected, and generation history.</li>
@@ -73,14 +86,16 @@ export default function PrivacyPolicy() {
             
             <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">4.1 Service Providers</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              We may share information with third-party service providers who perform services on our behalf, including:
+              We may share limited information with third-party service providers who perform services on our behalf, including:
             </p>
             <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-4">
-              <li><strong>Luma AI:</strong> For AI-powered image and video generation</li>
-              <li><strong>Cloud Storage Providers:</strong> For storing your uploaded images and generated content</li>
-              <li><strong>Payment Processors:</strong> For processing subscription and credit purchases</li>
-              <li><strong>Analytics Providers:</strong> For understanding App usage and performance</li>
+              <li><strong>AI Processing:</strong> For AI-powered image and video generation (Note: Face data is NOT shared with any third parties and is processed exclusively within our secure infrastructure)</li>
+              <li><strong>Payment Processors:</strong> For processing subscription and credit purchases (only payment-related information, never face data or photos)</li>
+              <li><strong>Analytics Providers:</strong> For understanding App usage and performance (only anonymized usage statistics, never personal photos or face data)</li>
             </ul>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              <strong>Important:</strong> Your photos and face data are NEVER shared with third-party service providers. All facial recognition and processing occurs within our own secure infrastructure without external transmission.
+            </p>
 
             <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">4.2 Legal Requirements</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -141,8 +156,11 @@ export default function PrivacyPolicy() {
 
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Data Retention</h2>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 leading-relaxed mb-4">
               We retain your personal information for as long as necessary to provide our services, comply with legal obligations, resolve disputes, and enforce our agreements. When you delete your account, we will delete or anonymize your personal information, except where we are required to retain it for legal purposes.
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              <strong>Face Data Retention:</strong> As stated in Section 2.2, face data and photos containing facial features are NOT stored on our servers. They are processed temporarily in memory only during the active AI generation process and are immediately and permanently deleted upon completion. There is zero retention period for facial biometric data.
             </p>
           </section>
 
